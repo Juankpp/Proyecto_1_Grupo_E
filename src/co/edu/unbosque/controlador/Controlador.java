@@ -1,8 +1,13 @@
 package co.edu.unbosque.controlador;
 
 import co.edu.unbosque.view.Iniciar;
-import co.edu.unbosque.view.Vista;
+import co.edu.unbosque.view.VentanaPrincipal;
 
 public class Controlador {
-Iniciar i   = new Iniciar(this);
+	
+	
+	Iniciar i = new Iniciar(this);
+	VentanaPrincipal vi = new VentanaPrincipal(this);	
+	
+	
 }
